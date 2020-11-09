@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Manage Personal - Absensi</title>
+  <title>Edit Absen - Absensi</title>
   <link rel="stylesheet" href="assets/vendors/core/core.css">
   <link rel="stylesheet" href="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
   <link rel="stylesheet" href="assets/fonts/feather-font/css/iconfont.css">
@@ -185,50 +185,76 @@
 
         <div class="d-flex justify-content-between align-items-center flex-wrap grid-margin">
           <div>
-            <h4 class="mb-3 mb-md-0">Manage Users</h4>
+            <h4 class="mb-3 mb-md-0">Edit Absen</h4>
           </div>
         </div>
 
-        <a href="create-user.html" class="btn btn-primary mb-3 text-white">Create User</a>
-
         <div class="row">
-          <div class="col-md-12 grid-margin stretch-card">
+          <div class="col-md-12 grid-margin">
             <div class="card">
               <div class="card-body">
-                <h6 class="card-title">Data Table</h6>
-                <p class="card-description">Read the <a href="https://datatables.net/" target="_blank"> Official
-                    DataTables Documentation </a>for a full list of instructions and other options.</p>
-                <div class="table-responsive">
-                  <table id="dataTableExample" class="table">
-                    <thead>
-                      <tr>
-                        <th>No</th>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Team</th>
-                        <th>Action</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>Alfian Prisma Yopiangga</td>
-                        <td>Admin</td>
-                        <td>Tim A</td>
-                        <td>
-                          <a href="edit-user.html" class="badge badge-light">Edit</a>
-                          <a href="detail-user.html" class="badge badge-primary">Detail</a>
-                        </td>
-                      </tr>
+                <h6 class="card-title">Form Edit Absen</h6>
+                <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <form class="forms-sample">
+                  <div class="form-group row">
+                    <div class="col">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" class="form-control" name="name" type="text" value="Alfian Prisma Yopiangga" readonly>
+                      </div>
+                      <div class="form-group">
+                        <label for="checkin">Check In</label>
+                        <input id="checkin" class="form-control" name="checkin" type="text" value="07.00" readonly>
+                      </div>
+                      <div class="form-group">
+                        <label for="checkout">Check Out</label>
+                        <input id="checkout" class="form-control" name="checkout" type="text" value="16.00" readonly>
+                      </div>
+                      
+                      
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="team">Team</label>
+                        <select class="form-control" id="team">
+                          <option selected disabled>Select team</option>
+                          <option>Tim A</option>
+                          <option>Tim B</option>
+                          <option>Tim C</option>
+                          <option>Tim D</option>
+                          <option>Tim E</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="position">Position</label>
+                        <select class="form-control" id="position">
+                          <option selected disabled>Select position</option>
+                          <option>Admin</option>
+                          <option>Leader</option>
+                          <option>User</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="status">Status</label>
+                        <select class="form-control" id="status">
+                          <option selected disabled>Select status</option>
+                          <option>Hadir</option>
+                          <option>Terlambat</option>
+                          <option>Alpha</option>
+                          <option>Izin</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <input class="btn btn-primary" type="submit" value="Update">
+                  <a href="manage-user.html" class="btn btn-light">Cancel</a>
 
-                    </tbody>
-                  </table>
-                </div>
+                </form>
               </div>
             </div>
           </div>
-        </div>
 
+        </div>
 
       </div>
 
