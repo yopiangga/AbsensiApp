@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Create User - Absensi</title>
-  <link rel="stylesheet" href="assets/vendors/core/core.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>404 Not Found - Absensi</title>
+	<link rel="stylesheet" href="assets/vendors/core/core.css">
   <link rel="stylesheet" href="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
 	<link rel="stylesheet" href="assets/fonts/feather-font/css/iconfont.css">
 	<link rel="stylesheet" href="assets/vendors/flag-icon-css/css/flag-icon.min.css">
@@ -18,11 +18,10 @@
   <link rel="stylesheet" href="assets/css/datatables/rowReorder.dataTables.min.css">
   <link rel="stylesheet" href="assets/css/datatables/responsive.dataTables.min.css">
 </head>
-
 <body>
-  <div class="main-wrapper">
+	<div class="main-wrapper">
 
-    <nav class="sidebar">
+		<nav class="sidebar">
       <div class="sidebar-header">
         <a href="#" class="sidebar-brand">
           Absensi<span>App</span>
@@ -36,7 +35,7 @@
       <div class="sidebar-body">
         <ul class="nav">
           <li class="nav-item nav-category">Main</li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a href="index.html" class="nav-link">
               <i class="link-icon" data-feather="box"></i>
               <span class="link-title">Dashboard</span>
@@ -145,148 +144,80 @@
         </ul>
       </div>
     </nav>
+	
+		<div class="page-wrapper">
+					
+			<nav class="navbar">
+				<a href="#" class="sidebar-toggler">
+					<i data-feather="menu"></i>
+				</a>
+				<div class="navbar-content">
+					<ul class="navbar-nav">
 
-    <div class="page-wrapper">
+						<li class="nav-item dropdown nav-profile">
+							<a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img src="assets/images/faces/face1.jpg" alt="profile">
+							</a>
+							<div class="dropdown-menu" aria-labelledby="profileDropdown">
+								<div class="dropdown-header d-flex flex-column align-items-center">
+									<div class="figure mb-3">
+										<img src="assets/images/faces/face1.jpg" alt="">
+									</div>
+									<div class="info text-center">
+										<p class="name font-weight-bold mb-0">Admin IT</p>
+										<p class="email text-muted mb-3">superadmin@admin.com</p>
+									</div>
+								</div>
+								<div class="dropdown-body">
+									<ul class="profile-nav p-0 pt-3">
+										<li class="nav-item">
+											<a href="login.html" class="nav-link">
+												<i data-feather="log-out"></i>
+												<span>Log Out</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
 
-      <nav class="navbar">
-        <a href="#" class="sidebar-toggler">
-          <i data-feather="menu"></i>
-        </a>
-        <div class="navbar-content">
-          <ul class="navbar-nav">
+			<div class="page-content">
+        
 
-            <li class="nav-item dropdown nav-profile">
-              <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <img src="assets/images/faces/face1.jpg" alt="profile">
-              </a>
-              <div class="dropdown-menu" aria-labelledby="profileDropdown">
-                <div class="dropdown-header d-flex flex-column align-items-center">
-                  <div class="figure mb-3">
-                    <img src="assets/images/faces/face1.jpg" alt="">
-                  </div>
-                  <div class="info text-center">
-                    <p class="name font-weight-bold mb-0">Admin IT</p>
-                    <p class="email text-muted mb-3">superadmin@admin.com</p>
-                  </div>
-                </div>
-                <div class="dropdown-body">
-                  <ul class="profile-nav p-0 pt-3">
-                    <li class="nav-item">
-                      <a href="login.html" class="nav-link">
-                        <i data-feather="log-out"></i>
-                        <span>Log Out</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="page-content">
-
-        <div class="d-flex justify-content-between align-items-center flex-wrap grid-margin">
-          <div>
-            <h4 class="mb-3 mb-md-0">Create User</h4>
+        <div class="row w-100 mx-0 auth-page">
+          <div class="col-md-8 col-xl-6 mx-auto d-flex flex-column align-items-center">
+              <img src="https://www.nobleui.com/html/template/assets/images/404.svg" class="img-fluid mb-2" alt="404">
+              <h1 class="font-weight-bold mb-22 mt-2 tx-80 text-muted">404</h1>
+              <h4 class="mb-2">Halaman Tidak Tersedia</h4>
+              <h6 class="text-muted mb-3 text-center">Oopps!! URL yang anda masukkan tidak valid.</h6>
+              <a href="index.html" class="btn btn-primary">Kembali ke Beranda</a>
           </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 grid-margin">
-            <div class="card">
-              <div class="card-body">
-                <h6 class="card-title">Form Create User</h6>
-                <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                <form class="forms-sample">
-                  <div class="form-group row">
-                    <div class="col">
-                      <div class="form-group">
-                        <label for="name">Name</label>
-                        <input id="name" class="form-control" name="name" type="text">
-                      </div>
-                      <div class="form-group">
-                        <label for="team">Team</label>
-                        <select class="form-control" id="team">
-                          <option selected disabled>Select team</option>
-                          <option>Tim A</option>
-                          <option>Tim B</option>
-                          <option>Tim C</option>
-                          <option>Tim D</option>
-                          <option>Tim E</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label for="position">Position</label>
-                        <select class="form-control" id="position">
-                          <option selected disabled>Select position</option>
-                          <option>Admin</option>
-                          <option>Leader</option>
-                          <option>User</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label>Time Work (12 hour):</label>
-                        <input type="text" name="time" class="form-control time-work" data-inputmask-alias="datetime" data-inputmask-inputFormat="HH:MM:ss"  data-inputmask-max="24" />
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label for="phone">Phone</label>
-                        <input id="phone" class="form-control" name="phone" type="text">
-                      </div>
-                      <div class="form-group">
-                        <label for="email">Email</label>
-                        <input id="email" class="form-control" name="email" type="text">
-                      </div>
-                      <div class="form-group">
-                        <label for="password">Password</label>
-                        <input id="password" class="form-control" name="password" type="text">
-                      </div>
-                      <div class="form-group">
-                        <label>Time End (12 hour):</label>
-                        <input type="text" name="time" class="form-control time-work" data-inputmask-alias="datetime" data-inputmask-inputFormat="HH:MM:ss"  data-inputmask-max="24" />
-                      </div>
-                    </div>
-                  </div>
-                  <input class="btn btn-primary" type="submit" value="Create">
-                  <a href="manage-users.html" class="btn btn-light">Cancel</a>
-
-                </form>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
 
-      <footer class="footer d-flex flex-column flex-md-row align-items-center justify-content-center">
-        <p class="text-muted text-center text-md-left">Copyright © 2020 <a href="" target="_blank">DataGroup</a>. All
-          rights reserved</p>
-      </footer>
 
-    </div>
-  </div>
+			</div>
 
-  <script src="assets/vendors/core/core.js"></script>
+			<footer class="footer d-flex flex-column flex-md-row align-items-center justify-content-center">
+				<p class="text-muted text-center text-md-left">Copyright © 2020 <a href="" target="_blank">DataGroup</a>. All rights reserved</p>
+			</footer>
+		
+		</div>
+	</div>
+
+	<script src="assets/vendors/core/core.js"></script>
   <script src="assets/vendors/chartjs/Chart.min.js"></script>
   <script src="assets/vendors/jquery.flot/jquery.flot.js"></script>
   <script src="assets/vendors/jquery.flot/jquery.flot.resize.js"></script>
   <script src="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
   <script src="assets/vendors/apexcharts/apexcharts.min.js"></script>
   <script src="assets/vendors/progressbar.js/progressbar.min.js"></script>
-  <script src="assets/vendors/feather-icons/feather.min.js"></script>
-  <script src="assets/js/template.js"></script>
+	<script src="assets/vendors/feather-icons/feather.min.js"></script>
+	<script src="assets/js/template.js"></script>
   <script src="assets/js/dashboard.js"></script>
   <script src="assets/js/datepicker.js"></script>
-
-
-	<script src="assets/vendors/inputmask/jquery.inputmask.min.js"></script>
-	<script src="assets/js/inputmask.js"></script>
-
 
   <script src="assets/vendors/datatables.net/jquery.dataTables.js"></script>
     <script src="assets/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
@@ -304,4 +235,4 @@
 
 </body>
 
-</html>
+</html>    
