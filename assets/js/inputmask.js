@@ -11,6 +11,5 @@
     hourFormat: "24"
   });
 
-    // $(".time-work").inputmask("h:s",{ "placeholder": "hh/mm" });
 
 })(jQuery);
